@@ -6,6 +6,13 @@
     padding: 0;
 }
 
+body {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+}
+
 ul {
     list-style: none;
     display: flex;
@@ -19,10 +26,8 @@ li {
     font-size: 18px;
 }
 
-body {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
+footer {
+    margin-top: auto;
 }
 
 .header {
@@ -72,4 +77,28 @@ body {
     font-size: small;
     flex-grow: 1;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 36px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.CTA {
+    background-color: #3882F6;
 }
