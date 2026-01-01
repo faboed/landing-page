@@ -40,16 +40,16 @@ footer {
 
 .hero {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     background-color: #1F2937;
     padding: 72px 72px;
+    gap: 20px;
 }
 
 .hero-text {
     display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
     max-width: 50%;
+    flex-wrap: wrap;
 }
 
 .hero-text-header {
@@ -80,6 +80,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 50%;
 }
 
 .information {
