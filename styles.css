@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400;700;900&display=swap');
 
 * {
-    font-family: Roboto;
+    font-family: "Roboto";
     margin: 0;
     padding: 0;
 }
@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     color: #F9FAF8;
+    min-height: 100vh;
 }
 
 ul {
@@ -34,7 +35,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 10px 72px;
+    padding: 10px 15%;
     color: #F9FAF8;
 }
 
@@ -42,7 +43,7 @@ footer {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 72px 72px;
+    padding: 72px 15%;
     gap: 20px;
 }
 
@@ -85,21 +86,79 @@ footer {
 
 .information {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    padding: 72px 15%;
 }
 
 .information-header {
     font-size: 36px;
-    color: #1F2937;
     font-weight: 900;
+}
+
+.boxes {
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+}
+
+.box-column {
     margin-top: 36px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.frame {
+    border: solid #3882F6 2px;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
 }
 
 .quote {
     background-color: #E5E7EB;
     color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 72px 15%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    font-weight: bold;
 }
 
 .CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 15%;
+}
+
+.CTA-frame {
     background-color: #3882F6;
+    width: 100%
+}
+
+.content {
+    flex: 1
+}
+footer {
+    background-color: #1F2937;
+    flex-shrink: 0;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 200;
 }
